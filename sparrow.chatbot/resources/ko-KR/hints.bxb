@@ -1,0 +1,10 @@
+hints {
+  // uncategorized {
+  //   hint (With Example Capsule, perform an action)
+  // }
+  uncategorized {
+    hint ("챗봇에서 대화 시작")
+    hint ("챗봇에서 퀴즈하자")
+    hint ("챗봇에서 대화")
+  }
+}

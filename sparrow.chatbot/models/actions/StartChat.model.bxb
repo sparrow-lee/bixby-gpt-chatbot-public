@@ -1,0 +1,44 @@
+action (StartChat) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (context) {
+      type (Context)
+      min(Required) max(One)
+      default-init {
+        intent {
+          goal : CreateContext
+        }
+      }
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+    
+    input (query) {
+      type (Query)
+      min (Required) max (One)
+    }
+  }
+  output (Context) {
+    throws {
+      error (NextChat) {
+        property (nextContext) {
+          type (Context)
+          min (Required) max (One)
+          visibility (Private)
+        }
+        on-catch {
+          replan {
+            intent {
+              goal : StartChat
+              value : $expr(nextContext)
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+capsule-info {
+  display-name (ChatBot)
+  developer-name (sparrow)
+  description ("Example capsule description")
+  dispatch-name (챗봇)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+  search-keywords {
+    keyword ("Chatbot")
+    keyword ("GPT")
+    keyword ("LLM")
+  }
+}

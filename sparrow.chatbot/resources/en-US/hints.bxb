@@ -1,0 +1,10 @@
+hints {
+  // uncategorized {
+  //   hint (With Example Capsule, perform an action)
+  // }
+  uncategorized {
+    hint ("With Chatbot Capsule, let's do a quiz")
+    hint ("With Chatbot Capsule, let's talk")
+    hint ("With Chatbot Capsule, let's chat")
+  }
+}

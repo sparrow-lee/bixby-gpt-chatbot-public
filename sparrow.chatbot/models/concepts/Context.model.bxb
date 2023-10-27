@@ -1,0 +1,23 @@
+structure (Context) {
+  description (__DESCRIPTION__)
+  property (instruction) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (conversation) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (gptDialog) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (locale) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }  
+}

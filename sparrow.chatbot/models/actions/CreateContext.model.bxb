@@ -1,0 +1,5 @@
+action (CreateContext) {
+  description ('Creating base context concept')
+  type (Constructor)
+  output (Context)
+}

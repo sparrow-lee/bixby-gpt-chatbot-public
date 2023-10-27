@@ -1,0 +1,4 @@
+train (t-oekhjoc95td256mnvi1yufwqr) {
+  utterance ("[g:Query:prompt] (취미가 무엇인지 말해 줄 수 있겠어?)[v:Query]")
+  last-modified (1698331789962)
+}

@@ -1,0 +1,7 @@
+result-view {
+  match: Context (context)
+  render {
+    nothing
+  }
+  message ("#{value(context.gptDialog)}")
+}

@@ -1,0 +1,13 @@
+input-view {
+  match: Query (query) {
+    to-input: StartChat (action) {
+      from-input: Context (context)
+    }
+  }
+
+  message ("#{value(context.gptDialog)}")
+
+  render {
+    // appropriate input component 
+  }
+}

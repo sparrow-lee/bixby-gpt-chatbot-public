@@ -1,0 +1,4 @@
+train (t-tfo1wr3tumz7ids9l57u8bphn) {
+  utterance ("[g:Query:prompt] (너의 이름은 뭐야?)[v:Query]")
+  last-modified (1698331766364)
+}

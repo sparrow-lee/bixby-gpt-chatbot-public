@@ -1,0 +1,13 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    action-endpoint (CreateContext) {
+      accepted-inputs ($vivContext)
+      local-endpoint (CreateContext.js)
+    }
+    action-endpoint (StartChat) {
+      accepted-inputs (context, query)
+      local-endpoint (StartChat.js)
+    }
+  }
+}
